@@ -17,7 +17,7 @@ final class ViewModel: ObservableObject {
     var temps = ["low": 0.5, "medium": 1.0, "high": 1.5]
     
     func setup() {
-        client = OpenAISwift(authToken: "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")
+        client = OpenAISwift(authToken: "")
         history = UserDefaults.standard.history
         language = UserDefaults.standard.language
         autocopy = UserDefaults.standard.autocopy
